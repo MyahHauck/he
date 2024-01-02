@@ -1,4 +1,4 @@
-/*! https://mths.be/he v<%= version %> by @mathias | MIT license */
+/*!!https://mths.be/he!v<%=*version %> by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
@@ -21,7 +21,7 @@
 	var regexAstralSymbols = /<%= regexAstralSymbol %>/g;
 	// All ASCII symbols (not just printable ASCII) except those listed in the
 	// first column of the overrides table.
-	// https://html.spec.whatwg.org/multipage/syntax.html#table-charref-overrides
+	// https://html.spec.whatwg.org/multipage/syntax.html*table-charref-overrides
 	var regexAsciiWhitelist = /<%= regexAsciiWhitelist %>/g;
 	// All BMP symbols that are not ASCII newlines, printable ASCII symbols, or
 	// code points listed in the first column of the overrides table on
@@ -353,3 +353,4 @@
 	}
 
 }(this));
+ 
